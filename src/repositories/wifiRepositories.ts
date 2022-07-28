@@ -1,6 +1,6 @@
 import { Wifi } from "@prisma/client";
 
-import { prisma } from "../config/database.js";
+import { prisma } from "../config/db.js";
 
 export type CreateWifiData = Omit<Wifi, "id">;
 

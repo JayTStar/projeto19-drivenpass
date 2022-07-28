@@ -1,4 +1,4 @@
-import * as wifiRepository from "../repositories/wifiRepository.js";
+import * as wifiRepository from "../repositories/wifiRepositories.js";
 import * as dataUtils from "../utils/dataUtils.js";
 
 export async function create(wifiData: wifiRepository.CreateWifiData) {

@@ -1,4 +1,4 @@
-import Crypt from "cryptr";
+import Crypt from "crypt";
 import dotenv from "dotenv";
 
 dotenv.config();

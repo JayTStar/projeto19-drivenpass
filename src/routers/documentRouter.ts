@@ -1,7 +1,7 @@
 import { Router } from "express";
 
 import * as documentControllers from "../controller/documentController.js";
-import { validateSchema } from "../middlewares/schemaValidation";
+import { validateSchema } from "../middlewares/schemaValidation.js";
 import { documentSchema } from "../schemas/documentSchemas.js";
 
 export const documentRouter = Router();

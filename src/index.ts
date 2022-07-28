@@ -3,7 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 
 import { router } from "./routers/index.js"
-import { handleError } from "./middlewares/errorHandler"
+import { handleError } from "./middlewares/errorHandler.js"
 
 dotenv.config();
 

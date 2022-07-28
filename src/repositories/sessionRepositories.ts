@@ -1,5 +1,5 @@
 import { Sessions } from "@prisma/client";
-import { prisma } from "../config/database.js";
+import { prisma } from "../config/db.js";
 
 type CreateSessionData = Omit<Sessions, "id">
 

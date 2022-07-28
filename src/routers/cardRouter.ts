@@ -1,8 +1,8 @@
 import { Router } from "express";
 
-import { validateSchema } from "../middlewares/schemaValidation";
+import { validateSchema } from "../middlewares/schemaValidation.js";
 import { cardSchema } from "../schemas/cardSchemas.js";
-import * as cardControllers from "../controller/cardController";
+import * as cardControllers from "../controller/cardController.js";
 
 export const cardRouter = Router();
 

@@ -3,8 +3,8 @@ import dotenv from "dotenv";
 import jwt from "jsonwebtoken";
 import { Sessions } from "@prisma/client";
 
-import * as sessionRepository from "../repositories/sessionRepository.js";
-import * as userRepository from "../repositories/userRepository.js";
+import * as sessionRepository from "../repositories/sessionRepositories.js";
+import * as userRepository from "../repositories/userRepositories.js";
 
 dotenv.config();
 
